@@ -5,9 +5,9 @@ public class Main {
         Auto mersedes = new Auto(220, "black", "sedan", 2000, "Mersedes");
         Auto moskvitch = new Auto(120, "green", "pickup", 1100, "Moskvitch");
 
-        ferrari.accelerate();
-        mersedes.accelerate();
-        moskvitch.accelerate();
+        ferrari.accelerate(); // ускоряем феррари
+        mersedes.accelerate(); //ускоряем мерседес
+        moskvitch.accelerate(); //ускоряем москвич
 
         ferrari.changeColor("red");
         mersedes.changeColor("white");
